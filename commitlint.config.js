@@ -4,7 +4,7 @@ module.exports = {
         'scope-enum': [
             2,
             'always',
-            ['ios', 'google', 'amazon', 'ios & google', 'ios & amazon', 'google & amazon', 'release']
+            ['ios', 'google', 'amazon', 'ios & google', 'ios & amazon', 'google & amazon']
         ],
     }
 };
