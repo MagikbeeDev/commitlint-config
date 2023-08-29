@@ -15,7 +15,7 @@ Commitzen is configured to use the same configuration as commitlint via the [@co
 1. In your project folder, run:
 
 ```
-npm install -D @magikbee/commitlint-config-magikbee
+npm install @magikbee/commitlint-config-magikbee --save-dev
 ```
 
 2. Create (or update) a `commitlint.config.js` file in your project folder with the following content:
