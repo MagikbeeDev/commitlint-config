@@ -97,3 +97,10 @@ npm i --save-dev standard-version
 Now you can use npm run release.
 
 For your first release, simply do npm run release -- --first-release.
+
+---
+**NOTE**
+
+Note: There is a hook for when you run git commit. This hook can cause conflicts when generating a new version in the changelog commit process. To overcome this problem, simply press ctrl-z to abort the process and the rest of the version generation process will be done
+
+---
