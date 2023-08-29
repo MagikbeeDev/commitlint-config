@@ -1,0 +1,43 @@
+{
+  "name": "@magikbee/commitlint-config-magikbee",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "husky install",
+    "commit": "git-cz",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagikbeeDev/commitlint-config-magikbee.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MagikbeeDev/commitlint-config-magikbee/issues"
+  },
+  "homepage": "https://github.com/MagikbeeDev/commitlint-config-magikbee#readme",
+  "description": "",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@commitlint/cz-commitlint": "^17.7.1",
+    "commitizen": "^4.3.0",
+    "husky": "^8.0.3",
+    "inquirer": "^8.2.6",
+    "standard-version": "^9.5.0"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@commitlint/cz-commitlint": "^17.7.1",
+    "commitizen": "^4.3.0",
+    "inquirer": "^8.2.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  }
+}
