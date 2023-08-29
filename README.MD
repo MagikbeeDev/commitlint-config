@@ -64,6 +64,13 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 
 4. Add hook (to use the commit helper when using git commit)
 
+---
+**NOTE**
+
+It should not be used in conjunction with the standard version package.
+
+---
+
 ```
 npx husky add .husky/prepare-commit-msg "exec < /dev/tty && npx cz --hook || true"
 ```
@@ -98,9 +105,3 @@ Now you can use npm run release.
 
 For your first release, simply do npm run release -- --first-release.
 
----
-**NOTE**
-
-Note: There is a hook for when you run git commit. This hook can cause conflicts when generating a new version in the changelog commit process. To overcome this problem, simply press ctrl-c to abort the process and the rest of the version generation process will be done or change commit script to > "commit": "git commit"
-
----
