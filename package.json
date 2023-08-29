@@ -1,6 +1,6 @@
 {
   "name": "@magikbee/commitlint-config-magikbee",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -26,13 +26,6 @@
     "husky": "^8.0.3",
     "inquirer": "^8.2.6",
     "standard-version": "^9.5.0"
-  },
-  "peerDependencies": {
-    "@commitlint/cli": "^17.7.1",
-    "@commitlint/config-conventional": "^17.7.0",
-    "@commitlint/cz-commitlint": "^17.7.1",
-    "commitizen": "^4.3.0",
-    "inquirer": "^8.2.6"
   },
   "config": {
     "commitizen": {
