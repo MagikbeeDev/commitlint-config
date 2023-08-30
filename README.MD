@@ -15,7 +15,7 @@ Commitzen is configured to use the same configuration as commitlint via the [@co
 1. In your project folder, run:
 
 ```
-npm install @magikbee/commitlint-config-magikbee --save-dev
+npm install --save-dev @magikbee/commitlint-config-magikbee @commitlint/cli@^17.7.1 @commitlint/config-conventional@^17.7.0 @commitlint/cz-commitlint@^17.7.1 commitizen@^4.3.0 husky@^8.0.3 inquirer@^8.2.6
 ```
 
 2. Create (or update) a `commitlint.config.js` file in your project folder with the following content:
@@ -47,7 +47,7 @@ module.exports = {
 1. Install
 
 ```
-npm install husky --save-dev
+npm install --save-dev husky@^8.0.3 
 ```
 
 2. Activate hooks
